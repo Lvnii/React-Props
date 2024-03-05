@@ -1,0 +1,9 @@
+.list ul {
+    padding: 0;
+    gap: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}

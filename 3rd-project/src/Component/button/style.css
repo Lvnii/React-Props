@@ -1,0 +1,23 @@
+.custom-button {
+    background-color: transparent;
+    border: 1 px solid black;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.custom-button.danger {
+    color: red;
+    border-color: red;
+}
+
+.custom-button.success {
+    color: green;
+    border-color: green;
+}
+
+.custom-button.warning {
+    color: orange;
+    border-color: orange;
+}

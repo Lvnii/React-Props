@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 300px;
+    padding-bottom: 10px;
+}
+
+.card .image-container {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+}
+
+.card .image-container img {
+    width: 100%;
+}
+
+.card .description .title {
+    text-transform: capitalize;
+}
+
+.card .description .desc-txt {
+    font-size: 14px;
+}
+
+.card .description .actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
